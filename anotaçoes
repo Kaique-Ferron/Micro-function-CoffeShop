@@ -1,0 +1,7 @@
+npm i - node.js
+
+node app.js >rodar
+
+npm init -y
+
+npm i nodemon

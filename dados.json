@@ -1,0 +1,28 @@
+[
+  {
+    "pedidos": [
+      {
+        "nome": "pao",
+        "preco": 50
+      },
+      {
+        "nome": "leite",
+        "preco": 7
+      }
+    ],
+    "total": "57.00"
+  },
+  {
+    "pedidos": [
+      {
+        "nome": "bolo",
+        "preco": 27
+      },
+      {
+        "nome": "morango",
+        "preco": 12
+      }
+    ],
+    "total": "39.00"
+  }
+]
