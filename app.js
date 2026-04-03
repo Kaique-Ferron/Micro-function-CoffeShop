@@ -61,3 +61,11 @@ app.post('/salvar', (req, res) =>{
 app.listen(PORT, ()=>{
     console.log(`Servidor rodando em http://localhost:${PORT}`)
 })
+
+app.get('ler', (req, res) =>{
+try {
+    const dados = LerDados()
+} catch (error) {
+    res.status(500).send('Erro ao ler dados')
+    
+}})
